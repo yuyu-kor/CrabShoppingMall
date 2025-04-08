@@ -1,0 +1,74 @@
+{
+    "products":[
+        {
+            "id":0,
+            "img":"/images/crab.jpg",
+            "title":"대게 1kg",
+            "price":"싯가",
+            "choice":true,
+            "new":false,
+            "size":["소","중","대"]
+
+        },
+        {
+            "id":1,
+            "img":"https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240519_211%2F1716098005807rYvhG_JPEG%2FIMG_0742.jpeg",
+            "title":"홍게 1kg",
+            "price":"싯가",
+            "choice":false,
+            "new":false,
+            "size":["소","중","대"]
+
+        },
+        {
+            "id":2,
+            "img":"/images/sashimi.jpg",
+            "title":"모듬회 소",
+            "price":100000,
+            "choice":false,
+            "new":false,
+            "size":["소","중","대"]
+
+        },
+        {
+            "id":3,
+            "img":"/images/sashimi.jpg",
+            "title":"모듬회 중",
+            "price":120000,
+            "choice":true,
+            "new":false,
+            "size":["소","중","대"]
+
+        },
+        {
+            "id":4,
+            "img":"/images/sashimi.jpg",
+            "title":"모듬회 대",
+            "price":140000,
+            "choice":true,
+            "new":false,
+            "size":["소","중","대"]
+
+        },
+        {
+            "id":5,
+            "img":"https://www.cyso.co.kr/data/item/42/08/31314_500_1.jpg",
+            "title":"문어 1kg",
+            "price":"싯가",
+            "choice":false,
+            "new":false,
+            "size":["소","중","대"]
+
+        },
+        {
+            "id":6,
+            "img":"https://image.8dogam.com/resized/product/asset/v1/upload/fe66d0e269704ad1a7523d12350fbf7c.jpeg?type=big&res=3x&ext=jpg",
+            "title":"가자미식해 1kg",
+            "price":35000,
+            "choice":true,
+            "new":true,
+            "size":["소","중","대"]
+
+        }
+    ]
+}
