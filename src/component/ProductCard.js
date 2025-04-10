@@ -8,7 +8,7 @@ const ProductCard = ({ item }) => {
   }
   return (
     <div className="product-card" onClick={showDetail}>
-      <img src={item?.img} />
+      <img src={item?.img} alt="상품 이미지" />
       <div className="product-card-info">
         <div className="product-card-info-badge">
           {/* 조건부 렌더링으로 아예 안 보이게 하기 (item?.choice === true??"사장Pick":"" 말고) */}

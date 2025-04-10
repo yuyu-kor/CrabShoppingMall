@@ -13,6 +13,7 @@
 
 .nav-section img {
     width: 200px;
+    cursor: pointer;
 }
 
 .nav-section {
@@ -175,7 +176,7 @@
     gap: 7px;
 }
 
-.product-card .choice {
+.product-card-info-badge .choice {
     font-size: 13px;
     color: red;
     border: 1px solid lightgray;
@@ -186,7 +187,7 @@
     text-align: center;
 }
 
-.product-card .new {
+.product-card-info-badge .new {
     font-size: 13px;
     color: #1976d2;
     background-color: #e3f2fd;
@@ -208,7 +209,95 @@
     color: #d32f2f;
 }
 
+.product-img {
+    display: flex;
+    justify-content: flex-end;
+}
 
+.product-img img {
+    width: 100%;
+    max-width: 700px;
+    
+}
+
+.product-detail-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.product-detail-info h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.product-detail-info .price {
+    font-size: 24px;
+    color: #d32f2f;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.product-size-btn {
+    width: 10px;
+}
+
+
+/* 사이즈 드롭다운 버튼 커스터마이징 */
+.product-size-btn .dropdown-toggle {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 10px 16px;
+    font-size: 16px;
+    color: #333;
+    width: 160px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.product-size-btn .dropdown-toggle::after {
+    float: right;
+    margin-top: 8px;
+}
+
+  /* 드롭다운 메뉴 스타일 */
+.product-size-btn .dropdown-menu {
+    border-radius: 12px;
+    border: 1px solid #eee;
+    padding: 8px 0;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.product-size-btn .dropdown-item {
+    padding: 10px 16px;
+    font-size: 15px;
+    color: #333;
+    transition: background-color 0.2s ease;
+}
+
+.product-size-btn .dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+.product-add-btn {
+    background-color: #4f97fb;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 300px;
+    margin-top: 60px;
+    transition: background-color 0.2s ease;
+}
+
+.product-add-btn:hover {
+    background-color: #0b5ed7;
+}
 
 
 
