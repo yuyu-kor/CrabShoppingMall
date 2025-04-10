@@ -54,8 +54,6 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
           alt="대게왕국 로고 이미지"
           onClick={() => {
             navigate("/");
-            // 로고 클릭 시 페이지 최상단으로 이동
-            window.scrollTo({ top: 0, behavior: "smooth" });
           }}
         />
       </div>

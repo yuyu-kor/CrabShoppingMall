@@ -18,12 +18,18 @@ const ProductAll = () => {
     getProducts();
   }, [query]);
 
+  useEffect(()=>{
+    if (productList.length === 0 && query.get("q")) {
+      alert ("찾으시는 상품이 존재하지 않습니다.");
+    }
+  },[productList]);
+
   return (
     <div>
       <Container>
         <Row>
           {productList.map((item) => (
-            <Col lg={3} md={4} sm={6}>
+            <Col key={item.id} xs={12} sm={6} md={4} lg={3}>
               <ProductCard item={item} />
             </Col>
           ))}
