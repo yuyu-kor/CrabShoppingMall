@@ -212,10 +212,10 @@
 .product-img {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 10px;
 }
 
 .product-img img {
-    width: 100%;
     max-width: 700px;
     
 }
@@ -237,7 +237,7 @@
     font-size: 24px;
     color: #d32f2f;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .product-size-btn {
@@ -291,7 +291,7 @@
     font-size: 16px;
     font-weight: 500;
     width: 300px;
-    margin-top: 60px;
+    margin-top: 15px;
     transition: background-color 0.2s ease;
 }
 
