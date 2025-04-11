@@ -318,12 +318,16 @@
         display: block;
     }
 
+    .product-img img {
+        max-width: 400px;
+    }
     .product-detail-info .price {
         margin-bottom: 30px;
     }
 
     .product-add-btn {
         margin-top: 20px;
+        margin-bottom: 30px;
     }
 
 }
